@@ -8,6 +8,27 @@ Este repositorio contiene el desarrollo de un sitio web funcional para el consul
 odontológico de la Dra. Edith Henker, especialista en rehabilitación oral con sede en
 Ibagué, Tolima. Este proyecto representa el inicio de un sitio web real que será utilizado por el consultorio.
 
+## Estructura del proyecto
+consultorio-odontologico/
+
+├── index.html          # Página de inicio
+
+├── servicios.html      # Catálogo de servicios con filtros
+
+├── detalle.html        # Vista detallada de cada servicio
+
+├── nosotros.html       # Perfil de la doctora y formulario de contacto
+
+├── css/
+
+│   └── styles.css      # Estilos personalizados
+
+├── js/
+
+│   └── script.js       # Lógica e interactividad
+
+└── assets/             # Recursos multimedia
+
 ## Tecnologías utilizadas
 
 - HTML5
