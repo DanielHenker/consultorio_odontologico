@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Consultorio odontológico especializado en rehabilitación oral y estética dental en Ibagué, Tolima.">
+  <meta name="author" content="Daniel">
+  <title>Consultorio Odontológico</title>
+
+  <!-- Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Nuestro estilo personalizado -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="fa-solid fa-tooth me-2"></i>Consultorio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html">Sobre nosotros</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Tu sonrisa, nuestra especialidad</h1>
+      <p class="lead">Rehabilitación oral y estética dental con la más alta tecnología</p>
+      <a href="servicios.html" class="btn btn-light btn-lg mt-3">Ver nuestros servicios</a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS DESTACADOS -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestros servicios</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <div class="icono-servicio mb-3">🦷</div>
+              <h5 class="card-title">Limpieza dental</h5>
+              <p class="card-text">Eliminación de placa y sarro para una boca sana.</p>
+              <a href="detalle.html?servicio=limpieza" class="btn btn-outline-primary btn-sm">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <div class="icono-servicio mb-3">✨</div>
+              <h5 class="card-title">Blanqueamiento</h5>
+              <p class="card-text">Recupera el blanco natural de tus dientes de forma segura.</p>
+              <a href="detalle.html?servicio=blanqueamiento" class="btn btn-outline-primary btn-sm">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <div class="icono-servicio mb-3">🔧</div>
+              <h5 class="card-title">Rehabilitación oral</h5>
+              <p class="card-text">Restauración completa de la función y estética dental.</p>
+              <a href="detalle.html?servicio=rehabilitacion" class="btn btn-outline-primary btn-sm">Ver más</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ ELEGIRNOS -->
+  <section class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">¿Por qué elegirnos?</h2>
+      <div class="row text-center g-4">
+        <div class="col-md-4">
+          <h4>🏆 Experiencia</h4>
+          <p>Más de 45 años dedicados a la salud oral de nuestros pacientes.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>💡 Tecnología</h4>
+          <p>Equipos modernos para diagnósticos precisos y tratamientos cómodos.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>❤️ Atención personalizada</h4>
+          <p>Cada paciente recibe un plan de tratamiento único y adaptado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-primary text-white text-center py-3">
+    <p class="mb-0">© 2025 Consultorio Odontológico · Ibagué, Tolima</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
